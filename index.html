@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>INSERT YOUR NAME</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web Application Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#topic1">VCS</a>
+                    </li>
+                    <li>
+                        <a href="#topic2">Git</a>
+                    </li>
+                    <li>
+                        <a href="#topic3">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#topic4">Git Commands</a>
+                    </li>
+                    <li>
+                        <a href="#topic5">Repositories</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h2>Lesson 3 Highlights</h2>
+                <h3>Karlee Dykes</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="topic1">
+            <img class="featurette-image img-circle img-responsive pull-right" src="https://cdn.lynda.com/course/106788/106788-636322770298548086-16x9.jpg">
+            <h2 class="featurette-heading">VCS
+                <span class="text-muted">Version Control System</span>
+            </h2>
+            <p class="lead">A Version Control System is a system used for backing up files. Its used for the purpose of recovering and modifying previous versions of a file. It is very useful when working on a large project with several people contributing (often simultaneously). A VCS solves the file sharing issue by utilizing a main common repository allowing team members to checkout, edit, commit, and merge files. It comes in handy when one wants to save a current version of a file that they may want to revert back to. The system keeps track of what exact changes were made by who and when. They are very smart to use in case of a mistake the system holds backups.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="topic2">
+            <img class="featurette-image img-circle img-responsive pull-left" src="https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/IC-Version-Control-Process.jpg">
+            <h2 class="featurette-heading">Git
+                <span class="text-muted">Let's git it</span>
+            </h2>
+            <p class="lead">GIT is a leading Version Control System that is known as distributed version control. This is a system that allows users to check out the fully repository and history, not just the latest version of the file. This is a better system because if the server goes down, all is not lost and clients can back up the entire repository. This is different from a centralized system because the version database each person is working with allows for complete range of motion for working on the project in large capacity. GIT is fast, simple, and fully distributed for large projects to be easily maintained between and across branches. </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="topic3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="http://blog.satvatinfosol.com/wp-content/uploads/2016/11/git.jpg">
+            <h2 class="featurette-heading">GitHub
+                <span class="text-muted">Using it effectively</span>
+            </h2>
+            <p class="lead">GitHub is the largest host for Git repositories and the main point of collaboration between millions of projects and developers.
+            <ol>
+                <li>The first step is to create an account on GitHub.</li>
+                <li>Next, configure a public key to use SSH remotes by clicking on "Settings" -> "Add an SSH key"</li>
+                <li>Paste the contents of your public-key and click "Add key."</li>
+                <li>Add your email address and two-factor authentication if wanted.</li>
+                <li>Next you'll need to obtain a git repository. This can be done by taking a local directory that isn't under a VCS and put it under Git, or clone an existing Git repository from somewhere else. </li>
+                <li>Go to the project directory "$ cd /Users/user/my_project" and type "$ git init"</li>
+                <li>This creates a subdirectory named ".git" (a skeleton).</li>
+                <li>Next we'll go over the git commands for navigating the system.</li>
+            </ol>
+            </p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+       <!-- Fourth Featurette -->
+        <div class="featurette" id="topic4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="https://www.perforce.com/sites/default/files/image/2017-10/image-product-visualize.png">Git Commands
+                <span class="text-muted">Usin(g) it</span>
+            </h2>
+            <p class="lead">
+                <dl>
+                    <dt>"$ git init nameofproject</nameofproject></nameofproject>" </dt>
+                    <dd>this is the initialization of the project, it sets up the git control structures. It creates a folder directory or local repository that contains the project files and history.</dd>
+                    <dt>$ git add filename</dt>
+                    <dd>this command permanately recognizes the files as ready to be committed into the directory. It places it into a temporary holding area primed to be committed which must be done first. This is known as staging. A file must be staged before it can be committed.</dd>
+                    <dt>$ git commit -m "Commit message"</dt>
+                    <dd>Git commit is the command that actually saves and records a version of the file into the directory, but it is not yet added to the remote repository.</dd>
+                    <dt>$ git commit -a</dt>
+                    <dd>This commits any files added with git add and any files modified since then.</dd>
+                    <dt>$ git push origin master</dt>
+                    <dd>This sends changes to the master branch of the remote repository.</dd>
+                    <dt>$ git status</dt>
+                    <dd>This displays all the files modified and those still needed to be added or committed.</dd>
+                    <dt>git checkout -b branchname</dt>
+                    <dd>Creates a new branch name and switches to it.</dd>
+                
+                </dl>
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="topic5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="http://expertherald.com/wp-content/uploads/2018/01/Version-Control-System.png">
+            <h2 class="featurette-heading">Repositories
+                <span class="text-muted">Where exactly are they</span>
+            </h2>
+            <p class="lead">It can get confusing understanding the locations of files with adding, committing, and pushing, but Git does a clear job of keeping it straight. Remote and local repositories are confusing concepts. In the local directory is your working directory, staging area, and local repo. Things are placed into the local repo when they are committed. They are placed into the staging area when they are added. Git push places a file into the remote repo. Git pull is used to pull it back from the remote repo to local workspace. Where git checkout places it back into the working directory from the local repo. The remote repo is only involved in git push and git pull. The concept are easier to visualize when mapped out.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2018</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
